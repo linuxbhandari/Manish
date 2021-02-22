@@ -1,0 +1,29 @@
+yum install httpd*
+systemctl start httpd
+
+systemctl start mariadb
+
+yum install php php-mysql
+
+vi /var/www/html/info.php
+<?php phpinfo(); ?>
+
+
+sudo firewall-cmd --permanent --zone=public --add-service=http 
+sudo firewall-cmd --permanent --zone=public --add-service=https
+sudo firewall-cmd --reload
+
+
+.htaccess
+https://devops.ionos.com/tutorials/install-and-configure-mod_rewrite-for-apache-on-centos-7/
+
+Aapche VirtualHosting
+https://www.tecmint.com/install-apache-on-centos-7/
+
+Apache Authentication
+https://devops.ionos.com/tutorials/set-up-basic-authentication-in-apache-using-htaccess-on-centos-7/
+
+Selinux
+https://www.lisenet.com/2016/advanced-apache-configuration-with-selinux-on-rhel-7/
+https://beginlinux.com/server_training/web-server/976-apache-and-selinux
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/selinux_users_and_administrators_guide/sect-managing_confined_services-the_apache_http_server-configuration_examples

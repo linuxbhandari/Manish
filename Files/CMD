@@ -1,0 +1,13 @@
+crontab =>
+rpm =>https://www.cyberciti.biz/howto/question/linux/linux-rpm-cheat-sheet.php
+	https://www.tecmint.com/20-practical-examples-of-rpm-commands-in-linux/
+yum => 
+netstat
+nslookup/dig
+
+
+Troubleshoot system going slow
+https://torbjornzetterlund.com/how-to-trouble-shoot-a-slow-linux-server/
+https://scoutapm.com/blog/slow_server_flow_chart
+https://www.redhat.com/sysadmin/troubleshooting-slow-servers
+

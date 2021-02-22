@@ -1,0 +1,63 @@
+https://www.tecmint.com/create-lvm-storage-in-linux/
+https://www.tecmint.com/extend-and-reduce-lvms-in-linux/
+
+
+User managermant
+https://www.tutorialspoint.com/unix/unix-user-administration.htm
+https://www.redhat.com/sysadmin/linux-user-account-management
+https://www.guru99.com/linux-admin.html
+
+
+LVM
+https://www.tecmint.com/create-lvm-storage-in-linux/
+http://linux-training.be/storage/ch12.html#idp54419552
+
+pvs      => Display information about physical volume
+pvscan   => pvscan command will scan all disks for existing Physical Volumes
+
+vgs		 => Display information about volume group.
+vgscan   => vgscan command will scan all disks for existing Volume Groups.
+
+lvs		 => Display information about logical volumes.
+lvscan   => lvscan command will scan all disks for existing Logical Volumes
+
+LVM Attributes
+https://www.unixarena.com/2013/08/redhat-linux-lvm-volume-attributes.html/
+
+a => This physical volume can be allocated to volumes.
+x => This show that volume group is exported.
+
+1. Create LVM File System
+pvcreate /dev/sdb1
+vgcreate my_vg /dev/sdb1
+or 
+vgcreate -s 16M my_vg /dev/sdb1
+
+lvcreate -L450 -n my_lv my_vg
+or 
+lvcreate -l 10239 -n lv_test1 vg_data
+
+mkfs.ext4 /dev/my_vg/my_lv
+vim /etc/fstab
+
+2. vgextend
+vgcreate vg42 /dev/sde /dev/sdf
+
+3. vgremove
+vgremove vg42
+
+4. vgreduce (command to remove a Physical Volume from the Volume Group.)
+vgreduce vg1 /dev/sdg
+
+5. vgchange ( change parameters of a Volume Group.)
+ vgchange -xn vg1
+ 
+6. vgmerge (Merging two Volume Groups into one is done with vgmerge)
+ vgmerge vg1 vg2
+  Volume group "vg2" successfully merged into "vg1"
+  
+
+LVM Snapshot
+https://www.golinuxcloud.com/linux-lvm-snapshot-backup-restore-tutorial/
+https://www.golinuxcloud.com/linux-lvm-snapshot-backup-restore-tutorial/#Step_1_Create_LVM_Snapshot_Linux
+

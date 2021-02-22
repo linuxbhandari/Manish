@@ -1,0 +1,124 @@
+Linux Basic
+
+
+
+
+
+Apache
+Iptables
+Boot Process
+
+User Management (Permissions+special permissions)
+=================================================
+acl
+chown -ucfv <= change the file Owner or group.
+chmod  
+chgrp
+chage
+pwunconv
+
+File System 8e,83,82
+====================
+Crontab
+LVM
+Runlevel
+process management
+Network Bonding
+
+Important commands
+==================
+apt/Yum/rpm/rpm2cpio
+kdump
+
+top,vmstat,sar,nmap,netstat
+chkconfig
+du -sh
+lsof
+Remount -o rw,remount
+fuser
+ping
+dig
+ifcondig,ip a
+passwd
+useradd
+groupadd
+date
+getenforce
+ps
+ln -s
+who
+tty
+fdisk,parted
+ntpd -q
+apachectl
+httpd -D DUMP_VHOSTS
+cp or mv, rsync or scp
+find
+free 
+umask
+ulimit
+mkdir 
+uptime
+chattr +i filename
+nice
+ps
+sftp,ftp
+kill -9, -15
+sed
+telnet, nc
+zip,gzip, bzip
+lsblk
+logfile
+touch,vim
+nohup
+=================
+/etc/fstab
+/etc/passwd
+/etc/shadow
+/etc/hosts
+/etc/resolve.conf
+
+=================
+Boot Process
+	(Runlevel,
+User Management (Umask,ulimit) User Account Management,Group Management
+Process Management ()
+File System Management
+(LVM, Linux File system, Swap, Quotas, Usage)
+ext2/ext3/ext4 Filesystems
+ The XFS and btrfs Filesystems
+ File Permissions and Ownership
+
+Kernel Services and Configuration
+ Kernel Modules
+
+Apache,Nginx,NFS,LDAP.
+Bash Scripting.
+MySQL, PostgreSQL.
+RedHat Cluster
+Devices and udev
+FTP,sftp,ssh
+
+Network Addresses
+Network Devices and Configuration
+Firewalls
+System Startup and Shutdown
+GRUB
+System Init: systemd, SystemV and Upstart
+
+Backup and Recovery Methods
+Linux Security Modules
+Local System Security
+Basic Troubleshooting
+System Rescue
+OS hardening
+Bash Scripting
+
+=========================================
+Linux Interview Questions
+
+https://www.besanttechnologies.com/linux-interview-questions-and-answers
+https://www.geeksforgeeks.org/linux-virtualization-linux-containers-lxc/?ref=lbp
+https://updatedlinux.wordpress.com/2011/05/12/list-of-important-files-and-directories-in-linux-redhatcentosfedora/
+https://www.tecmint.com/linux-directory-structure-and-important-files-paths-explained/
+=================================

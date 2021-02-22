@@ -1,0 +1,114 @@
+https://www.tecmint.com/manage-users-and-groups-in-linux/
+
+/etc/passwd – User account information.
+/etc/shadow – Secure account information.
+/etc/group – Group account information.
+/etc/gshadow – Secure group account information.
+/etc/login.defs – Shadow password suite configuration..
+
+
+/etc/security/access.conf
+
+
+usermod :
+========
+=> usermod --expiredate 2014-10-30 user3
+=> usermod -g <primary group name> user3     			(Change User Primary Group)
+=> usermod -aG root,users user3             			(append group)
+=> usermod -G group2 user3                                      (Adding Group to an Existing User)
+=> usermod --home or -d  /tmp tecmint         			(change home directory, no need to create)
+=> usermod -d /var/<new homedir> user3                          (Move User Home Directory to New location)
+=> usermod --shell /bin/sh tecmint
+or                                            (To change shell)
+=> chsh -s /bin/sh tecmint
+# usermod --expiredate 2014-10-30 --append --groups root,users --home /tmp --shell /bin/sh tecmint 	(all in one command)
+
+=> usermod -L user1                           (Lock account)
+=> usermod -U user1                           (Unlock account)
+=> usermod -l <new name> user3                (Change User Login Name)
+=> usermod -p redhat user3		      (Create Un-encrypted Password for User)
+=> usermod -u 888 user3			      (Change User ID (UID))
+=> usermod -u 666 -g 777 user3		      (Change UID and GID of a User)
+=> 
+
+groupadd group1                               (add group)
+groupdel group1                               (delete group)
+
+useradd :
+=========
+=> useradd -d /user3 user3                       (create user with different homedir)
+=> useradd -u 10000 user3                        (create user with different UID)
+=> useradd -u 10000 -g 500 user3                 (Create a User with Specific Group ID)
+=> useradd -G group1,group2 user3                (create a User to Multiple Groups)
+=> useradd -M user3                              (create a user without homedir)
+=> useradd -e 2014-03-27 user3                   (create a user with Account Expiry Date)
+chage -l user3   (to check)                   
+=> useradd -e 2014-04-27 -f 45 user3             (Create a User with Password Expiry Date)
+=> useradd -c "User3" user3                      (Add a User with Custom Comments)
+=> useradd -s /sbin/nologin user3                (Change User Login Shell:)
+=> useradd -m -d /var/www/user3 -s /bin/bash -c "User3" -U user3             		 	(Add a User with Specific Home Directory, Default Shell and Custom Comment)
+=> useradd -m -d /var/www/user3 -s /bin/zsh -c "User3" -u 1000 -g 1000 user3  		 	(Add a User with Home Directory, Custom Shell, Custom Comment and UID/GID)
+=> useradd -m -d /var/www/user3 -s /sbin/nologin -c "User3" -u 1019 user3     		 	(Add a User with Home Directory, No Shell, Custom Comment and User ID)
+=> useradd -m -d /var/www/user3 -k /etc/custom.skell -s /bin/tcsh -c "User3" -u 1027 user3      (Add a User with Home Directory, Shell, Custom Skell/Comment and User ID)
+=> useradd -M -N -r -s /bin/false -c "User3" user3						(Add a User without Home Directory, No Shell, No Group and Custom Comment)
+
+Directory Structure
+https://www.tecmint.com/linux-directory-structure-and-important-files-paths-explained/
+https://updatedlinux.wordpress.com/2011/05/12/list-of-important-files-and-directories-in-linux-redhatcentosfedora/
+
+ACL
+https://www.tecmint.com/secure-files-using-acls-in-linux/
+
+Umask
+https://www.cyberithub.com/change-default-umask-values-permanently/
+
+
+https://tecadmin.net/understanding-sticky-bit-suid-and-sgid-in-linux/
+
+SUID :
+chmod u+s file
+chmod 4644 file
+
+SGID : 
+chmod g+s [filename]
+chmod 2755 [directory]
+
+Sticky Bit: 
+chmod o+t [directory]
+chmod 1755 [directory]
+
+https://www.tecmint.com/chattr-command-examples/
+
+chattr (Change Attribute) Commands to Make Important Files IMMUTABLE (Unchangeable) in Linux.
+lsattr : to check
+
+chattr +i demo/
+chattr +i demo/file1.txt
+
+chattr -i demo
+chattr -i demo
+
+
+/etc/sudoers : 
+
+Defaults    secure_path="/usr/sbin:/usr/bin:/sbin"
+root        ALL=(ALL) ALL
+tecmint     ALL=/bin/yum update
+gacanepa    ALL=NOPASSWD:/bin/updatedb
+%admin      ALL=(ALL) ALL
+manish      ALL=(ALL:ALL) NOPASSWD: ALL
+
+==========================
+Investigate user issue in linux
+=> aureport
+=> /var/log/secure
+=> /var/log/audit/audit.log
+=> /var/log/wtmp  (contain all login and logout events.)
+   $ last -aiF root
+
+ OS hardening
+ https://www.tecmint.com/linux-server-hardening-security-tips/
+ 
+  
+
+  

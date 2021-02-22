@@ -1,0 +1,159 @@
+Basic command related to docker images
+docker images => To check avaliable images.
+docker ps => To list of running container
+docker search centos => To search images
+docker pull centos => To download images
+docker run --name some-name -d  => To run container in deamon mode
+docker exec -it cname /bin/bash => login 
+docker logs cname => To check the logs
+docker rm cname => To remove
+docker inspect cname => for details
+docker stop cname => stop container
+
+docker top cname => to check process (polkitd)
+docker attach cname => only when /bin/bash avalible
+docker run -it -p 8080:8080 --name myjenkin -d jenkins/jenkins  <<jenkins
+
+ps -aux to check process 
+
+docker stats cname => To check ram
+
+docker commit con1 centos:v1
+docker run -it -name con2 centos:v1
+docker run -it --name demo centos:latest
+
+Volume attached
+docker run -d -v /v1:/var/lib/mysql --name db -e MYSQL_ROOT_PASSWORD=redhat mariadb
+
+We can run container in two mode
+a) root mode
+b) deamon mode
+=================================
+
+IQ
+
+=> What is Docker?
+=> Advantages and dis advantages
+=> What is docker images
+=> what is docker container?
+=> Docker Vs VM
+=> What is the advantage of Docker over hypervisors?
+=> Docker hub
+=> Docker swarm
+=> Use of dockerfile 
+=> Do I lose my data when the Docker container exits?
+=> What’s the difference between up, run, and start?
+===========================================
+
+provising => server build krna
+
+-P
+-p docker 
+=============
+Basic command related to docker images
+docker images => To check avaliable images.
+docker ps => To list of running container
+docker search centos => To search images
+docker pull centos => To download images
+docker run --name some-name -d  => To run container in deamon mode
+docker exec -it cname /bin/bash => login 
+docker logs cname => To check the logs
+docker rm cname => To remove
+docker inspect cname => for details
+docker stop cname => stop container
+
+docker top cname => to check process (polkitd)
+docker attach cname => only when /bin/bash avalible
+docker run -it -p 8080:8080 --name myjenkin -d jenkins/jenkins  <<jenkins
+
+ps -aux to check process 
+
+docker stats cname => To check ram
+
+docker commit con1 centos:v1
+docker run -it -name con2 centos:v1
+docker run -it --name demo centos:latest
+
+Volume attached
+docker run -d -v /v1:/var/lib/mysql --name db -e MYSQL_ROOT_PASSWORD=redhat mariadb
+
+We can run container in two mode
+a) root mode
+b) deamon mode
+=================================
+
+IQ
+
+=> What is Docker?
+=> Advantages and dis advantages
+=> What is docker images
+=> what is docker container?
+=> Docker Vs VM
+=> What is the advantage of Docker over hypervisors?
+=> Docker hub
+=> Docker swarm
+=> Use of dockerfile 
+=> Do I lose my data when the Docker container exits?
+=> What’s the difference between up, run, and start?
+===========================================
+
+provising => server build krna
+
+-P
+-p docker 
+=============
+
+Basic command related to docker images
+docker images => To check avaliable images.
+docker ps => To list of running container
+docker search centos => To search images
+docker pull centos => To download images
+docker run --name some-name -d  => To run container in deamon mode
+docker exec -it cname /bin/bash => login 
+docker logs cname => To check the logs
+docker rm cname => To remove
+docker inspect cname => for details
+docker stop cname => stop container
+
+docker top cname => to check process (polkitd)
+docker attach cname => only when /bin/bash avalible
+docker run -it -p 8080:8080 --name myjenkin -d jenkins/jenkins  <<jenkins
+
+ps -aux to check process 
+
+docker stats cname => To check ram
+
+docker commit con1 centos:v1
+docker run -it -name con2 centos:v1
+docker run -it --name demo centos:latest
+
+Volume attached
+docker run -d -v /v1:/var/lib/mysql --name db -e MYSQL_ROOT_PASSWORD=redhat mariadb
+
+We can run container in two mode
+a) root mode
+b) deamon mode
+=================================
+
+IQ
+
+=> What is Docker?
+=> Advantages and dis advantages
+=> What is docker images
+=> what is docker container?
+=> Docker Vs VM
+=> What is the advantage of Docker over hypervisors?
+=> Docker hub
+=> Docker swarm
+=> Use of dockerfile 
+=> Do I lose my data when the Docker container exits?
+=> What’s the difference between up, run, and start?
+===========================================
+
+provising => server build krna
+
+-P
+-p docker 
+=============
+
+

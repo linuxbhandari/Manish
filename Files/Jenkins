@@ -1,0 +1,37 @@
+Jenkins
+========
+=> Jenkins is an open source automation tool written in Java programming language that allows continuous integration.
+
+=> Jenkins is a powerful application that allows continuous integration and continuous delivery of projects, regardless of the platform you are working on. 
+
+=> It is a free source that can handle any kind of build or continuous integration. You can integrate Jenkins with a number of testing and deployment technologies.
+
+=> Jenkins builds and tests our software projects, which continuously making it easier for developers to integrate changes to the project, and making it easier for users to obtain a fresh build.
+
+=> Jenkins achieves CI (Continuous Integration) with the help of plugins. Plugins is used to allow the integration of various DevOps stages. If you want to integrate a particular tool, you have to install the plugins for that tool. For example: Maven 2 Project, Git, HTML Publisher, Amazon EC2, etc.
+
+
+Continuous Integration?
+=======================
+Continuous Integration (CI) is a development practice in which the developers are needs to commit changes to the source code in a shared repository at regular intervals. Every commit made in the repository is then built. This allows the development teams to detect the problems early.
+
+Continuous integration requires the developers to have regular builds. The general practice is that whenever a code commit occurs, a build should be triggered.
+
+Advantages and Disadvantages of using Jenkins
+=============================================
+Advantages of Jenkins
+    It is an open source tool.
+    It is free of cost.
+    It does not require additional installations or components. Means it is easy to install.
+    Easily configurable.
+    It supports 1000 or more plugins to ease your work. If a plugin does not exist, you can write the script for it and share with community.
+    It is built in java and hence it is portable.
+    It is platform independent. It is available for all platforms and different operating systems. Like OS X, Windows or Linux.
+    Easy support, since it open source and widely used.
+    Jenkins also supports cloud based architecture so that we can deploy Jenkins in cloud based platforms.
+
+Disadvantages of Jenkins
+    Its interface is out dated and not user friendly compared to current user interface trends.
+    Not easy to maintain it because it runs on a server and requires some skills as server administrator to monitor its activity.
+    CI regularly breaks due to some small setting changes. CI will be paused and therefore requires some developer's team attention.
+
