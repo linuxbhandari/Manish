@@ -1,17 +1,11 @@
-yum install httpd*
-systemctl start httpd
-
-systemctl start mariadb
-
-yum install php php-mysql
-
 vi /var/www/html/info.php
 <?php phpinfo(); ?>
-
 
 sudo firewall-cmd --permanent --zone=public --add-service=http 
 sudo firewall-cmd --permanent --zone=public --add-service=https
 sudo firewall-cmd --reload
+
+OS hardening
 
 
 .htaccess

@@ -96,6 +96,11 @@ Enter password:
 MariaDB [(none)]> unlock tables;
 Query OK, 0 rows affected (0.00 sec)
 
+DUMP
+https://www.tecmint.com/mysql-backup-and-restore-commands-for-database-administration/
+
+mysqldump -u root -ptecmint --all-databases > all-databases.sql
+mysqldump -u root -ptecmint <DB Name> > rsyslog.sql
 
 
 
