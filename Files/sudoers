@@ -1,0 +1,2 @@
+appuser	ALL=(ALL) NOPASSWD:/etc/init.d/tomcat5 start,/bin/tail,/bin/systemctl status httpd
+
