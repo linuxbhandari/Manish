@@ -1,0 +1,9 @@
+BEGINNER’S GUIDE FOR LINUX
+
+https://www.tecmint.com/free-online-linux-learning-guide-for-beginners/
+
+find . -type f -perm 755 -exec chmod 644 {} \;
+
+
+What is vm.swappiness?
+=> 

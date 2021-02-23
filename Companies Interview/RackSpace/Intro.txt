@@ -1,0 +1,47 @@
+About Myself and Techimal Skills
+================================
+=> Redhat OS (RHEL4, RHEL5, RHEL6, RHEL7)
+=> Redhat Cluster Suite.
+=> LVM FileSystem
+=> Postfix.
+=> FTP, SFTP, NFS.
+=> Apache, Tomcat, SSL.
+=> MySQL, Mariadb, PostgreSQL, LDAP.
+
+OpenSource
+=> Git
+=> ELK
+=> Nagios
+=> Puppet.
+
+Current Company and Current Role.
+=================================
+=> OS installation and upgradation.
+=> database backups.
+=> Custome Scripts and Schedule this on crontab.
+=> PostgreSQL Master Slave Replication.
+=> PaceMaker Cluster.
+=> Apache, Apache Hardening,
+=> Tomcat, Loadbalancing.
+=> deployment.
+=> letsencrypt and wildwards.
+=> valunerbilities and patch upgradation.
+=> OS hardening.
+=> LVM FileSystem.
+=> All OS related issues and Troubleshooting.
+
+Work Experiences on issue.
+=> PostgrSQL File-System
+=> Spice Mobile.
+
+My Strength.
+=> I am very hardwarking, honest for my work.
+=> ready to learn new technology.
+=> maintain the incident documents.
+=> Inform the issue and discuss with our senior befor doing any activity.
+
+Why You want to join this company.
+=> I wanted to work on new techonolgy.
+
+Why to want to leave your current company.
+=> most of the prjects  in nic  usying old technology.

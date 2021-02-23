@@ -8,11 +8,16 @@ sudo firewall-cmd --reload
 OS hardening
 
 
+
 .htaccess
 https://devops.ionos.com/tutorials/install-and-configure-mod_rewrite-for-apache-on-centos-7/
 
 Aapche VirtualHosting
 https://www.tecmint.com/install-apache-on-centos-7/
+https://www.guru99.com/apache.html
+(working of apache)
+https://kinsta.com/knowledgebase/what-is-apache
+https://www.hostinger.in/tutorials/what-is-apache#:~:text=Its%20job%20is%20to%20establish,both%20Unix%20and%20Windows%20servers.
 
 Apache Authentication
 https://devops.ionos.com/tutorials/set-up-basic-authentication-in-apache-using-htaccess-on-centos-7/
