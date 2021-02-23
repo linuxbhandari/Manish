@@ -9,10 +9,11 @@ About Myself and Techimal Skills
 => MySQL, Mariadb, PostgreSQL, LDAP.
 
 OpenSource
-=> Git
-=> ELK
-=> Nagios
+=> Git.
+=> ELK.
+=> Nagios.
 => Puppet.
+=> ansible.
 
 
 Current Company and Current Role

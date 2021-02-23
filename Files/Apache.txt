@@ -1,9 +1,43 @@
+LAMP Installion
+===============
+# yum install httpd mariadb mariadb-server php php-common php-mysql php-gd php-xml php-mbstring php-mcrypt
+
+# systemctl start mariadb
+# mysqladmin password redhat
+
+MariaDB [(none)]> create database wordpress;
+MariaDB [(none)]> CREATE USER wordpress@localhost IDENTIFIED BY "redhat@123";
+MariaDB [(none)]> grant all on wordpress.* TO wordpress@localhost;
+
+# cd /tmp && wget http://wordpress.org/latest.tar.gz
+# tar xvf latest.tar.gz -C /var/www/html/
+# chown apache wordpress -R
+
+[root@vm3 ~]# cat /etc/httpd/conf.d/vhosts.conf
+
+<VirtualHost *:80>
+  ServerAdmin root@localhost
+  DocumentRoot /var/www/html/wordpress
+  ServerName sitevm3.com
+  ServerAlias www.sitevm3.com
+  ErrorLog /var/log/httpd/sitevm3-error-log
+  CustomLog /var/log/httpd/sitevm3-acces-log common
+</VirtualHost>
+
+
 vi /var/www/html/info.php
-<?php phpinfo(); ?>
+<?php phpinfo();?>
+
+
+https://www.thegeekdiary.com/5-useful-examples-of-firewall-cmd-command/
 
 sudo firewall-cmd --permanent --zone=public --add-service=http 
 sudo firewall-cmd --permanent --zone=public --add-service=https
 sudo firewall-cmd --reload
+
+[root@vm3 ~]# firewall-cmd --zone=public --list-services
+dhcpv6-client http ssh
+
 
 OS hardening
 

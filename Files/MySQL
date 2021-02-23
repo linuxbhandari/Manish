@@ -6,13 +6,17 @@ http://www.expertphp.in/article/what-are-the-main-differences-between-innodb-and
 https://www.2daygeek.com/linux-mysqladmin-command-administrate-mysql-mariadb-server/
 https://www.tecmint.com/gliding-through-database-mysql-in-a-nutshell-part-i/
 
+
+
+
+
+
+
 MySQL working
 https://dbadiaries.com/what-is-mysql-replication-and-how-does-it-work
 
-
 # yum install mariadb-server
 # systemctl status mariadb
-
 
 # show engines;
 
@@ -49,9 +53,7 @@ exit
 
 start service
 
-
-
-===== Master/Slave
+===== Master/Slave================
 
 https://www.tecmint.com/how-to-setup-mysql-master-slave-replication-in-rhel-centos-fedora/
 https://www.opsdash.com/blog/mysql-replication-howto.html
