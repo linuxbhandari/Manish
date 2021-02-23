@@ -1,0 +1,39 @@
+About MySelf/ My Current Company=============================
+I have 8.5 years of experience in Linux. I worked on multiple RedHat Flavors & technologies like.
+=> RedHat multiple os like RHEL4, RHEL5, RHEL6, RHEL7.
+=> RedHat cluster Suite.=> LVM Filesystem.=> Postfix.=> FTP, SFTP, NFS.=> Apache Tomcat, SSL
+=> MySQL, PostgreSQL, LDAP.
+
+I have worked on some open source technology also.=> Git.=> ELK.=> Nagios.=> Puppet.=> docker.
+About My Daily Work/ Role in the Project.===========================Currently, I am working as a Sr. System Admin in the Department of Fertilizer Project for NIC. This is a government project which comes into the central government.(My current company name is Velocis System Private Limited.)
+My daily work is to maintain the linux servers and applications which provide the Fertilizer to farmers in all over India. Here I am manage
+=> Os installation and Upgradation.
+=> daily logical dump and online backups.=> Custom scripts and schedule these scripts for daily stock on crontab. 
+=> PostgreSQL Master Slave Active Passive Cluster.
+=> PostgreSQL Master Slave replications.=> Apache Tomcat, Apache hardening, Tomcat hardening, deployment in tomcats, war files mapping to Apache, SSL letsencrypt certificate, wildcard certificate, 
+=> OS and Kernel patch upgradation, 
+=> OS hardening, LVM File system. 
+ => All OS related issues and troubleshooting.
+Work Experience
+===========PostgreSQL Filesystem space issue : recently I have Filesystem space issue in pacemaker cluster. when any activity happens in Postgres db it saves all updates in archive logs format and in replication, master sends archive logs to his replica. Then replica takes update from this archive logs respectivity. but if any replica has some issue like space issue, or not reached. then the master will not send the archive logs. In this situation master saves all archives in his datadir itself, due to this the space of the san was goes full and I can't move this logs from datadir, because if i move the manually then it could be the change database goes corrupted. Now the solution was
+
+Elaticsearchis one of our critical client and I was working there as senior engineer and there we are using ELK for real time monitoring and (by mistake our junineer) elasticsearch database has been corrupted. The client was very angry and escalated this issue to his serinors. So as a senior engineer I started working on this and approx 1 week I take to recover this. It was a very big achievement for me, because I had never worked on elasticsearch.This was a very great experience for me. After this they give me lots of work in elasticsearch. I wrote lots of grok patterns for log filtering. elasticsearch upgradating.
+
+Spice mobile: In this project the client wants nfs db2 with nfs cluster, This is not the big task, but the main requirement was he wanted to integrate some custom scripts in the cluster and according to the Redhat not support any cluster if you not configure the cluster according to RedHat then he will not support you, but the client do not want to change his requirement. So I did that and the main challenge was to manage the sequence of cluster resources when the cluster relocated.
+
+My Strength==========
+My strength is I am a hard working, honest and punctual person for my work. I am helping nature person. I am always ready to learn new things.=> Attitude=> Documentation and sharing with the team.=> Update to ticket insidend documentation.=> Inform or discuss with our seniors before doing any activity.  
+About me and My Family background and education.=========================================
+I belong to HP. and My home town name is Paonta Sahib near Dehradun. I have a small family, we are Six members in our family. My father is not now and my mother is House's wife. We are three brothers, My elder brother is in EXL working in the finance department and second is me working as Sr. System Administrator in Fertilizer Project for NIC as a contractual employee. and my younger brother has started his own business. 
+
+Why you wanted to leave your current company.=================================
+a) Actually, the main reason is that in my current organization I am working there as a contract basis. At joining time they told me they will take on an onrole after one year, but it's been more than 3 years I am still working on contract basis and there are no any company facilities like ( paid sick leave, medical Insurance, Transportation facility.)
+b) Also it's too far from my house. I live in Nodida and my office is in Delhi. (Long distance.)
+Why you wanted to join this company.====================================
+a) If i select for this position. First of all this is an onrole position and second this is a very good opportunity for me to work on Openstack platform.  I am openstack certified in 2014, but still not get the chance to work on it.
+
+b) This company is in noida which is near to me.
+
+ 
+-- 
+Thanks & Regards Manish Singh BhandariMobile no : 9711287629
