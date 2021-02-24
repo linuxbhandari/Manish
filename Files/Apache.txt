@@ -30,6 +30,7 @@ vi /var/www/html/info.php
 
 
 https://www.thegeekdiary.com/5-useful-examples-of-firewall-cmd-command/
+https://www.tecmint.com/check-apache-modules-enabled/  (To check apache module)
 
 sudo firewall-cmd --permanent --zone=public --add-service=http 
 sudo firewall-cmd --permanent --zone=public --add-service=https
@@ -41,7 +42,12 @@ dhcpv6-client http ssh
 
 OS hardening
 
+Apache Rewrite Rules
+https://www.hostgator.com/help/article/apache-mod-rewrite-and-examples
+https://support.acquia.com/hc/en-us/articles/360004303994-Basic-rewrite-rule-examples
 
+Apache Basic configuration
+https://www3.ntu.edu.sg/home/ehchua/programming/howto/Apache_HowToConfigure.html
 
 .htaccess
 https://devops.ionos.com/tutorials/install-and-configure-mod_rewrite-for-apache-on-centos-7/
