@@ -1,0 +1,5 @@
+These are the Linux Interview Questions
+======================================
+Q) What is Linux?
+Q) What is OpenSoure and what are advantages and Dis-advantages for Open-source?
+Q) 
