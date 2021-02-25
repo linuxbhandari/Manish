@@ -1,44 +1,17 @@
 Linux Basic Interview Questions
 ===============================
-Q) Boot process?
-Q) Components of Linux?
-Q) What is swap space?
-Q) What is inodes ?
-Q) what is umask?
-Q) What is process id?
-Q) What are daemons?
-Q) What is load average?
-Q) What are the process status in linux?
-Q) What are the environmental variables?
-Q) What are the symbolic links?
-Q) What are the hard links?
 Q) What is redirection?
-Q) What are the maximum length for any file name under LINUX? (255 characters)
-Q) How to add & change the Kernel parameters ? (/etc/sysctl.conf and sysctl -p)
-Q) Where the kernel modules are located ? (/lib/module/<kernel version> )
-Q) What are the default ports used for SMTP,DNS,FTP,DHCP,SSH and squid ?
-Q) What is NIC Bonding? what are different modes?
-Q) How to check and verify the status the bond interface. ("cat /proc/net/bonding/bond0")
-Q) How to check which ports are listening in my Linux Server ? (netstat --listen and lsof -i)
-Q) List the services that are enabled at a particular run level in linux server ? (chkconfig --list| grep 5:on)
 Q) How to scan newly asssigned luns on linux box without rebooting ?
 Q) How to find WWN numbers of HBA cards in Linux Server ? ("systool -c fc_host -v | grep port_name")
 Q) Explain how to stop ssh connection for a particular server or network ? (nmap)
 Q) Please let us know how to stop the ssh service from a particular node. (/etc/host.deny)
 Q) How we are giving file permission for the particular user. (through setfacl command)
-Q) Explain nfs hard and soft mount.?
 Q) Yum and rpm command
-Q) How to check how many files opened in Linux. (through lsof)
-Q) How to find zombie process and how to kill? (ps aux| grep Z)
 Q) Assume the / partition got read only error, what steps has to be take. (Remount –o rw,remount)
 Q) How to find out whether the particular user locked or not?(/etc/passwd(!!))
 Q) What is the command to check password expire information for the particular user. (chage -l username) 
 Q) How to recover if the user deleted by mistake? (pwunconv     (It creates the users according  /etc/passwd   file and deletes the  /etc/shadow   file))
-Q) Syslog
-Q) postfix
-Q) TCP vs UDP
-Q) IMAP vs Pop3
-Q) what is manycast, multipcast, unicast,broadcast.
+
 
 https://www.besanttechnologies.com/linux-interview-questions-and-answers
 https://www.edureka.co/blog/interview-questions/linux-interview-questions-for-beginners/
@@ -46,11 +19,7 @@ https://www.softwaretestinghelp.com/linux-interview-questions-answers/
 https://www.linuxtechi.com/experience-linux-admin-interview-questions/
 https://mindmajix.com/linux-interview-questions
 =======================================================================================
-Q) What are your day to day avtivity in your daily current organization.
-Q) Type of troubleshooring which you have done and what are the issue have faced.
-Q) pcs cluster issue explain. (at least two issue.)
-   controller node has in pcs cluster.
-   postfix issue(BHEL), CDOT issue.
+For OpenStack Questions
 Q) live instance migration
 Q) if compte node goes down, how to get out vms which was running in that compute node.
    (Host Evacuate command)
@@ -59,24 +28,7 @@ RedHat Cluster
 https://geekaider.wordpress.com/2012/10/26/linux-interview-questions-part-2/
 http://www.opslib.com/2014/02/redhat-cluster-interview-questions-and.html
 
-Postfix.
-=======
-Experience : I have approx 6 months experience in postfix. I worked for isgec and BHEL Project. In BHEL I have manage MySQL and Squid to block unwanted sites.
-
-Q) What is postfix and default port used for postfix ?
-Q) What is MTA and it’s role in mailing system ?
-Q) What is MDA ?
-Q) What is MUA ?
-Q) What is the use of  postmaster account in Mailserver ?
-Q) What are the important daemons in postfix ?
-Q) What are the configuration files of postfix server ?
-Q) How to check the mail’s queue in postfix ?
-Q) How to check postfix configuration from the command line ?
-Q) What is an Open mail relay ?
-Q) What is relay host in postfix ?
-Q) What is Greylisting ?
-Q) What Is Dovecot?
-
+Postfix
 https://www.linuxtechi.com/install-configure-postfix-mailserver-centos-8/
 
 NTP

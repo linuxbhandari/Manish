@@ -1,5 +1,73 @@
-These are the Linux Interview Questions
+Linux Interview Questions
 ======================================
 Q) What is Linux?
+Q) What are the Components and Features of Linux?
 Q) What is OpenSoure and what are advantages and Dis-advantages for Open-source?
-Q) 
+Q) What is the Importance of the GNU Project.?
+Q) Difference b/w RHEL6 and RHEL7?
+Q) Difference b/w Linux and Window?
+Q) What are the default ports used for SMTP,DNS,FTP,DHCP,SSH and squid ?
+Q) What are variable and environment variables?
+Q) What is Symbolic and Hard links. What are the difference b/w them?
+Q) What is the maximum length for a filename under Linux?
+Q) What is kernel and It types?
+Q) How to upgrade Kernel and it's types.?
+Q) How to upgrade kernel?
+Q) What is kernel modules and How we can load and unload it?
+Q) How to add and change kernel parameters?
+Q) How to view all the kernel parameters?
+Q) What is Shell and What are the avalible shell in Linux and How we can view this?
+Q) What is the use of a shebang line?
+Q) What are the 3 standard streams in Linux?
+Q) Explain Linux Boot Process?
+Q) What is Syslog?
+Q) What is NFS?
+Q) Explain nfs hard and soft mount.?
+==============================================
+Q) What is Process and what is process id?
+Q) Explain the Process states?
+Q) What is parent and child process?
+Q) How to view the Process states?
+Q) What is Daemons?
+Q) What is Zombie Process?
+Q) How to check how many files opened in Linux. (through lsof)
+Q) How to find zombie process and how to kill? (ps aux| grep Z)
+Q) What is Load average?
+Q) How to check Port are listening on my server?
+Q) How to enable a service at a particular run level?
+===============================================
+Q) What is FielSystem?
+Q) Explain the Ext4 and XFS File System and It's differene?
+Q) Explain the File Type in Linux?
+Q) Explain /etc/fstab and /etc/mtab and what are the difference?
+Q) What is swap space? How to extend it?
+Q) What is inodes?
+Q) What is umask?
+Q) What is alias in Linux and How do we create this?
+Q) What are the File compression utilises in Linux?
+Q) What is inode Block, Super Block and Boot Block?
+Q) What is LVM? Type of LVM?
+=================================================
+Q) What is NIC Bonding? what are different modes?
+Q) How to check Binding status?
+Q) What are the benefit of NIC Teamimg?
+=====================================
+Q) What is Computer Network?
+Q) What is TCP/UDP and What are the difference between them?
+Q) What is Manycast, Multipcast, Unicast, Broadcast.
+========================================
+Q) What is Postfix?
+Q) What is IMAP/POP3?
+Q) What is postfix and default port used for postfix ?
+Q) What is MTA and it’s role in mailing system ?
+Q) What is MDA ?
+Q) What is MUA ?
+Q) What is the use of  postmaster account in Mailserver ?
+Q) What are the important daemons in postfix ?
+Q) What are the configuration files of postfix server ?
+Q) How to check the mail’s queue in postfix ?
+Q) How to check postfix configuration from the command line ?
+Q) What is an Open mail relay ?
+Q) What is relay host in postfix ?
+Q) What is Greylisting ?
+Q) What Is Dovecot?
