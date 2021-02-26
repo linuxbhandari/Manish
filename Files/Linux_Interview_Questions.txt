@@ -1,9 +1,10 @@
 Linux Interview Questions
-======================================
+=========================
 Q) What is Linux?
 Q) What are the Components and Features of Linux?
 Q) What is OpenSoure and what are advantages and Dis-advantages for Open-source?
 Q) What is the Importance of the GNU Project.?
+Q) Which Linux flavours you have worked?
 Q) Difference b/w RHEL6 and RHEL7?
 Q) Difference b/w Linux and Window?
 Q) What are the default ports used for SMTP,DNS,FTP,DHCP,SSH and squid ?
@@ -21,8 +22,39 @@ Q) What is the use of a shebang line?
 Q) What are the 3 standard streams in Linux?
 Q) Explain Linux Boot Process?
 Q) What is Syslog?
+Q) In which file user authentication logs are stored?
+Q) What is vm.swappiness?
+Q) What Are The Troubleshooting Steps To Configure Slow Servers? What Should Be The Ideal Load Average Of Server?
+https://www.digitalocean.com/community/tutorials/how-to-troubleshoot-common-apache-errors
+
+Q  Patching activities- Which command you use? If you have to install the security updates, how will you achieve that?
+Q) Monitoring- How to check the historical load on a server? Where are the log files created?
+Q) Differentiate between SSH_login and SSH_Config? How would you check the SSHD configuration syntax?
+Q) What is default data directory for MySQL? What is the default port for MySQL?  How to list the users created in MySQL? Prepare on MySQL replication.
+Q) How can you check cache location in Yum? How can you roll back any changes in Yum?
+Q) How will you rebuild a RPM database, if it is corrupted?
+
 Q) What is NFS?
 Q) Explain nfs hard and soft mount.?
+
+Q) What is FTP?
+Q) What is anonymous FTP?
+Q) Difference between FTP and SFTP?
+Q) Where are the encrypted passwords for users stored in Linux?
+Q) If there is a machine with different login attempts, which log should you check?
+Q) How do you add a user to secondary group? How many primary and secondary group a user can be part of?
+
+Q) How would you check the syntax error of Apache configuration? 
+Q) What is the default configuration file? 
+Q) How to list all the virtual host on a server? What is CSR file in Apache?
+Q) How to identify the reason for Apache going down?
+
+Q) Difference between apache and Nginx (https://www.geeksforgeeks.org/difference-between-apache-and-nginx/)
+Q) Differentiate between root and intermediate SSL certificates? //
+Q) What is SSL?
+Q) What is http and https and what is difference between tham?
+https://www.guru99.com/difference-http-vs-https.html
+
 ==============================================
 Q) What is Process and what is process id?
 Q) Explain the Process states?
@@ -47,14 +79,62 @@ Q) What is alias in Linux and How do we create this?
 Q) What are the File compression utilises in Linux?
 Q) What is inode Block, Super Block and Boot Block?
 Q) What is LVM? Type of LVM?
+Q) Prepare on LVM/File Systems. Can you extend or reduce a LVM? Any precheck you need to do?
+Q) What is journaling? How many types of journaling are there?
+Q) What is Raid system? Differentiate between RAID 5 & RAID 6, RAID 0 &s RAID 1? How to check the RAID status?
 =================================================
 Q) What is NIC Bonding? what are different modes?
 Q) How to check Binding status?
 Q) What are the benefit of NIC Teamimg?
 =====================================
-Q) What is Computer Network?
+Q) What is Computer Network and Its Type?
+Q) Explain the OSI and TCP reference model?
+Q) What is DNS and it's working and it's records? (A,AAAA,CNAME,NS)
+Q) Difference between A and AAAA records in DNS? What is SOA record?
 Q) What is TCP/UDP and What are the difference between them?
 Q) What is Manycast, Multipcast, Unicast, Broadcast.
+Q) What is NameSpace?
+Q) What is Network and Network Topology?
+Q) What is Bandwidth?
+Q) What is Node?
+Q) What is Links?
+Q) What is Router?
+Q) What is P2P?
+Q) What is Subnet Mask?
+Q) What is Data encapsulation?
+Q) What is VPN, NAT, RIP?
+Q) What are the different ways of securing a computer network?
+Q) What is NIC?
+Q) What are proxy servers, and how do they protect computer networks?
+Q) What is private IP address?
+Q) What is NOC, DOS?
+Q) What is MAC address?
+Q) What is firewalld?
+Q) What is Gateways?
+Q) What is Tracert?
+Q) What is TCP/IP?
+Q) What is the main job of the ARP?
+Q) What is ICMP?
+Q) What is ping?
+Q) What are advantages does fiber options have over other media?
+Q) Difference between hub and switch?
+Q) What are the maximum networks and hosts in class A, B and C network?
+Q) Describe networking?
+Q) What is SMTP?
+Q) What is multicast routing?
+Q) What is the importance of encryption on a network?
+Q) What is meaning by tunnel mode?
+Q) What is the role of the IEEE in computing networking?
+Q) What is VLAN?
+Q) What is difference between TCP and UDP?
+Q) What is IPv4 and Ipv6?
+Q) What is a Decoder?
+Q) Explain the term pipelining?
+Q) Which measurement unit is used to measure the transmission speed of ethernet?
+Q) What is TCP Three-Way handshake?
+Q) What is MAC address?
+Q) What is an Analog Signal and Digital Signal?
+Q) What is modem? What are the advantages?
 ========================================
 Q) What is Postfix?
 Q) What is IMAP/POP3?
