@@ -15,7 +15,6 @@ OpenSource
 => Puppet.
 => ansible.
 
-
 Current Company and Current Role
 => OS installation and upgradation.
 => database backups.
@@ -47,5 +46,3 @@ Why You want to join this company.
 
 Why to want to leave your current company.
 => most of the prjects  in nic  usying old technology.
-
-

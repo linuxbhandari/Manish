@@ -27,7 +27,7 @@ Q) What is vm.swappiness?
 Q) What Are The Troubleshooting Steps To Configure Slow Servers? What Should Be The Ideal Load Average Of Server?
 https://www.digitalocean.com/community/tutorials/how-to-troubleshoot-common-apache-errors
 
-Q  Patching activities- Which command you use? If you have to install the security updates, how will you achieve that?
+Q) Patching activities- Which command you use? If you have to install the security updates, how will you achieve that?
 Q) Monitoring- How to check the historical load on a server? Where are the log files created?
 Q) Differentiate between SSH_login and SSH_Config? How would you check the SSHD configuration syntax?
 Q) What is default data directory for MySQL? What is the default port for MySQL?  How to list the users created in MySQL? Prepare on MySQL replication.
@@ -43,6 +43,22 @@ Q) Difference between FTP and SFTP?
 Q) Where are the encrypted passwords for users stored in Linux?
 Q) If there is a machine with different login attempts, which log should you check?
 Q) How do you add a user to secondary group? How many primary and secondary group a user can be part of?
+
+Q) What is Postfix?
+Q) What is IMAP/POP3?
+Q) What is postfix and default port used for postfix ?
+Q) What is MTA and it’s role in mailing system ?
+Q) What is MDA ?
+Q) What is MUA ?
+Q) What is the use of  postmaster account in Mailserver ?
+Q) What are the important daemons in postfix ?
+Q) What are the configuration files of postfix server ?
+Q) How to check the mail’s queue in postfix ?
+Q) How to check postfix configuration from the command line ?
+Q) What is an Open mail relay ?
+Q) What is relay host in postfix ?
+Q) What is Greylisting ?
+Q) What Is Dovecot?
 
 Q) How would you check the syntax error of Apache configuration? 
 Q) What is the default configuration file? 
@@ -136,18 +152,3 @@ Q) What is MAC address?
 Q) What is an Analog Signal and Digital Signal?
 Q) What is modem? What are the advantages?
 ========================================
-Q) What is Postfix?
-Q) What is IMAP/POP3?
-Q) What is postfix and default port used for postfix ?
-Q) What is MTA and it’s role in mailing system ?
-Q) What is MDA ?
-Q) What is MUA ?
-Q) What is the use of  postmaster account in Mailserver ?
-Q) What are the important daemons in postfix ?
-Q) What are the configuration files of postfix server ?
-Q) How to check the mail’s queue in postfix ?
-Q) How to check postfix configuration from the command line ?
-Q) What is an Open mail relay ?
-Q) What is relay host in postfix ?
-Q) What is Greylisting ?
-Q) What Is Dovecot?
